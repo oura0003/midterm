@@ -1,0 +1,117 @@
+body {
+      font-family: "Lato", Arial, Helvetica, sans-serif;
+    background: #aad4cf;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.site-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.site-title {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+/* Navigation Bar */
+nav {
+    background-color: #def9f6;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+  background-color: #def9f6;
+}
+
+.nav-bar li {
+  margin: 0 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.nav-bar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-right: 1px solid #ccc;
+    background-color: #def9f6;
+}
+
+main {
+  padding: 10px;
+  background-color:#def9f6;
+}
+
+.main-article h2 {
+  margin-top: 0;
+}
+
+.float-img {
+  float: left;
+  margin: 0 15px 15px 0;
+  max-width: 200px;
+  border: 1px solid #ccc;
+}
+
+.facts {
+  clear: both;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.facts ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: def9f6;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 1rem;
+  
+}
+
+.contact-form button {
+  width: 80px;
+  padding: 8px;
+  background-color: #def9f6;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: right;
+  padding: 10px;
+  background-color: #def9f6;
+}
